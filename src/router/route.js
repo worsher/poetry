@@ -17,7 +17,7 @@ export default [
         component: () => import('@/views/About.vue')
     },
     {
-        path : 'test',
+        path : '/test',
         name : 'ci',
         component : () => import('@/views/CiView.vue')
     }

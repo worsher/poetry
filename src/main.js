@@ -12,10 +12,6 @@ import CommonComponents from "@/components/common"
 import 'font-awesome/scss/font-awesome.scss'
 import { Plugin } from 'vue-fragment'
 
-import ci from "chinese-poetry/chinese-poetry/ci/author.song.json"
-import ci01 from "chinese-poetry/chinese-poetry/ci/ci.song.0.json"
-console.log(ci01[41])
-
 //fragment插件
 Vue.use(Plugin)
 
